@@ -3,7 +3,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
   /* sets font family for entire page */
-  background-color: #000000;
+  background-color: white;
 }
 
 @font-face /*  Specifies Custom Font to display the text */ {
@@ -20,7 +20,7 @@ body {
   left: 0;
   text-align: center;
   opacity: 0.8;
-  background-color: #000000;
+  background-color: white;
   z-index: 99;
 }
 
@@ -53,10 +53,12 @@ a:hover {
 }
 
 .navbar-brand {
-  font-family: "elinga", "myFirstFont", "Roboto";
-  font-weight: 500;
+  /* font-family: "elinga", "myFirstFont", "Roboto";
+  font-weight: 500; */
+  width: 5%;
+  height: 5%;
   /* font-size: 0.5rem; */
-  font-size: 56px;
+  /* font-size: 56px; */
 }
 
 .nav-item
@@ -75,13 +77,13 @@ a:hover {
   height: 100vh;
   width: 132vw;
   display: flex;
-  justify-content: center;
+  justify-content: `center;
 }
 
 #homeSection {
   position: relative;
   padding: 20px 0;
-  color: white;
+  color: black;
 }
 
 .homeRow {
@@ -107,7 +109,7 @@ a:hover {
 
 /* Style the Rejuvenate to red color */
 .homeHeading span {
-  color: black;
+  color: white;
   -webkit-text-stroke: 0.14vw rgb(44, 42, 42);
   letter-spacing: 2px;
   stroke: #ffa5d8;
@@ -212,7 +214,7 @@ a:hover {
 
 #brandsection {
   padding-top: 1%;
-  background-color: #8B4000;
+  background-color: #D2041D;
   padding-bottom: 6%;
 }
 
@@ -223,9 +225,9 @@ a:hover {
 
 #brandsection .container h1 span {
   font-size: 4.5rem;
-  border: 1px solid #a8763e;
-  background-color: white;
-  color: #6f1a07;
+  /* border: 1px solid #a8763e; */
+  /* background-color: black; */
+  color: wheat;
   padding: 1px 5px;
   font-family: "Roboto";
 }
@@ -497,22 +499,25 @@ a:hover {
 }
 
 /* HYGIENE SECTION */
-#healthySection {
+#reviewsection {
   padding-top: 0.5%;
-  background-color: #000000;
+  background-color: white;
   padding-bottom: 4%;
 }
 
-#healthySection .hygiene-title {
+#reviewsection .review-title {
   text-align: center;
   margin: 50px auto;
 }
+#reviewsection .p {
+  color: black;
+}
 
-#healthySection .hygiene-title span {
+#reviewsection .review-title span {
   font-size: 5rem;
-  border: 1px solid #a8763e;
-  background-color: white;
-  color: #a8763e;
+  /* border: 1px solid #a8763e; */
+  /* background-color: white; */
+  color: black;
   padding: 1px 5px;
   font-family: "Roboto";
 }
@@ -681,26 +686,8 @@ footer a {
   margin: 30px auto 0 auto;
 }
 
-/* TESTIMONIALS SECTION */
-#healthySection {
-  padding-top: 0.5%;
-  background-color: #000000;
-  padding-bottom: 4%;
-}
 
-#healthySection .hygiene-title {
-  text-align: center;
-  margin: 50px auto;
-}
 
-#healthySection .hygiene-title span {
-  font-size: 5rem;
-  border: 1px solid #a8763e;
-  background-color: white;
-  color: #a8763e;
-  padding: 1px 5px;
-  font-family: "Roboto";
-}
 
 .testimonials h3 {
   font-size: 4.5rem;
@@ -1018,7 +1005,7 @@ footer a {
     width: 145vw;
   }
 
-  #healthySection {
+  #reviewsection {
     width: 145vw;
   }
 

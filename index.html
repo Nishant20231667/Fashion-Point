@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Fashion Point</title>
-    <link
+    <!-- <link
       rel="shortcut icon"
-      href="images/momo-icon.webp"
+      href="images/momo-icon.webp" ##replace with site logo
       type="image/x-icon"
-    />
+    /> -->
 
     <!-- META -->
     <meta charset="utf-8" />
@@ -68,14 +68,16 @@
       <div class="container">
         <!-- CODE FOR NAVIGATION BAR -->
         <ul class="px-0 mx-0">
-          <img
+          <!-- <img
             src="./images/navbar-logo.gif"
             height="100px"
             width="100px"
             alt="navbar-logo"
-          />
+          /> -->
         </ul>
-        <a class="navbar-brand" href="index.html">Fashion Point</a>
+        <!-- <a class="navbar-brand" href="index.html"> -->
+          <img class="navbar-brand" src="./images/logo.png" alt="logo" />
+        <!-- </a> -->
         <!--         <a style ="font-size :class="navbar-brand" href="#">Fashion Point</a> -->
         <button
           class="navbar-toggler"
@@ -99,11 +101,18 @@
             <li class="nav-item">
               <a class="nav-link px-4" href="#brandsection">BRANDS</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link px-4" href="#healthySection">Hygiene</a>
-            </li> -->
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#categorysection">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#reviewsection">Review</a>
+            </li>
+            
             <li class="nav-item">
               <a class="nav-link px-4" href="contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <input type="text" placeholder="Search..">
             </li>
           </ul>
         </div>
@@ -1855,188 +1864,14 @@
       </div>
     </section>
 
-    <!-- <section id="healthySection">
-      <h1 class="hygiene-title">
-        <span><b>HYGIENE</b></span>
-      </h1>
-      <div class="eatSure container">
-        <div class="row">
-          <div class="col-sm-2 col-12">
-            <img
-              src="https://assets.faasos.io/ovenstory-react.in/production/eat-sure-mobile.png"
-              alt="eat-sure logo"
-            />
-          </div>
-
-          <div class="col-sm-2 col-6 borderLeft">
-            <div class="icon-wrapper">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="Capa_1"
-                enable-background="new 0 0 515.556 515.556"
-                height="512px"
-                viewBox="0 0 515.556 515.556"
-                width="512px"
-              >
-                <g>
-                  <path
-                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
-                    data-original="#000000"
-                    class="active-path"
-                    data-old_color="#000000"
-                    fill="#FFFFFF"
-                  ></path>
-                </g>
-              </svg>
-            </div>
-            <div class="text">Medically Certified beauty products</div>
-          </div>
-
-          <div class="col-sm-2 col-6 borderLeft">
-            <div class="icon-wrapper">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="Capa_1"
-                enable-background="new 0 0 515.556 515.556"
-                height="512px"
-                viewBox="0 0 515.556 515.556"
-                width="512px"
-              >
-                <g>
-                  <path
-                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
-                    data-original="#000000"
-                    class="active-path"
-                    data-old_color="#000000"
-                    fill="#FFFFFF"
-                  ></path>
-                </g>
-              </svg>
-            </div>
-            <div class="text">200+ Stringent Quality Checks</div>
-          </div>
-
-          <div class="col-sm-2 col-6 borderLeft">
-            <div class="icon-wrapper">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="Capa_1"
-                enable-background="new 0 0 515.556 515.556"
-                height="512px"
-                viewBox="0 0 515.556 515.556"
-                width="512px"
-              >
-                <g>
-                  <path
-                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
-                    data-original="#000000"
-                    class="active-path"
-                    data-old_color="#000000"
-                    fill="#FFFFFF"
-                  ></path>
-                </g>
-              </svg>
-            </div>
-            <div class="text">No Artificial Colours or Flavours</div>
-          </div>
-
-          <div class="col-sm-2 col-6 borderLeft">
-            <div class="icon-wrapper">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="Capa_1"
-                enable-background="new 0 0 515.556 515.556"
-                height="512px"
-                viewBox="0 0 515.556 515.556"
-                width="512px"
-              >
-                <g>
-                  <path
-                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
-                    data-original="#000000"
-                    class="active-path"
-                    data-old_color="#000000"
-                    fill="#FFFFFF"
-                  ></path>
-                </g>
-              </svg>
-            </div>
-            <div class="text">Double Sealed Packaging <br /><br /></div>
-          </div>
-
-          <div class="col-sm-2 col-12 borderLeft">
-            <a
-              href="https://eatsure.com/"
-              target="_blank"
-              class="btn knowMoreBtn"
-              >Know More</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="container safetyMeasuresDiv">
-        <p class="safetyMeasuresPara">
-          While we have always followed hygiene regime at Fashion Point, we have taken
-          <br />
-          a few specific measures at these times.
-        </p>
-        <div class="row safetyMeasures">
-          <div class="col-sm-3 col-6">
-            <img
-              src="./svg/mask.svg"
-              alt="Our Kitchen executives have been instructed to wear masks at all times."
-            />
-            <p>
-              Our Kitchen executives have been instructed to wear masks at all
-              times.
-            </p>
-          </div>
-
-          <div class="col-sm-3 col-6">
-            <img
-              src="./svg/thermo.svg"
-              alt="A daily log of our executives’ body temperatures is being maintained."
-            />
-            <p>
-              A daily log of our executives’ body temperatures is being <br />
-              maintained.
-            </p>
-          </div>
-
-          <div class="col-sm-3 col-6">
-            <img
-              src="./svg/sanitizer.svg"
-              alt="Every kitchen executive sanitizes his/her hands every hour."
-            />
-            <p>
-              Every kitchen executive sanitizes his/her hands every hour.
-              <br /><br />
-            </p>
-          </div>
-
-          <div class="col-sm-3 col-6">
-            <img
-              src="./svg/clean.svg"
-              alt="Every kitchen surface is rigorously cleaned to ensure a clean and sanitized workstation."
-            />
-            <p>
-              Every kitchen surface is rigorously cleaned to ensure a clean and
-              sanitized workstation.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- TESTIMONIALS SECTION -->
-    <section id="healthySection" class="testimonials">
-      <h1 class="hygiene-title">
+    <section id="reviewsection" class="testimonials">
+      <h1 class="review-title">
         <span><b>Reviewers</b></span>
       </h1>
       <div class="row d-flex justify-content-center">
         <div class="col-md-10 col-xl-8 text-center">
-          <p class="mb-4 pb-2 mb-md-5 pb-md-0">Fashion Point Reviewers</p>
+          <p>Fashion Point Reviewers</p>
         </div>
       </div>
 
@@ -2044,14 +1879,14 @@
         <div class="col-md-4 mb-5 mb-md-0">
           <div class="d-flex justify-content-center mb-4">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              src="./images/Nishant.jpg"
               class="rounded-circle shadow-1-strong"
               width="150"
               height="150"
               alt="person"
             />
           </div>
-          <h5 class="mb-3">Maria Smantha</h5>
+          <h5 class="mb-3">Nishant Garg</h5>
           <p class="px-xl-3">
             <i class="fas fa-quote-left pe-2"></i>
             Good Service, fast Delivery and amazing taste.
